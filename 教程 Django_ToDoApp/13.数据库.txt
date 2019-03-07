@@ -132,7 +132,7 @@ Todo.objects.all() -> QuerySet 查询集合 简单理解为表中的所有数据
 __str__  显示更友好,命令行以及admin界面
 Todo.objects.count() -> 行的数量
 
-a_row = Todo(thing='逛街', done=False) -> 创建一行数据, 但并未保存
+a_row = Todo(thing='看电影', done=False) -> 创建一行数据, 但并未保存
 a_row.save() -> 真正保存到库中
 a_row.id -> 保存之后才有id(序号)
 
